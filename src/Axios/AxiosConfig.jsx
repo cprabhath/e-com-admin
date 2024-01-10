@@ -2,8 +2,8 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 
 const axiosInstance = axios.create({
-  //baseURL: "https://ecom-backend-sys6.onrender.com",
-  baseURL: "http://localhost:3000",
+  baseURL: "https://ecom-backend-sys6.onrender.com",
+  //baseURL: "http://localhost:3000",
   headers: {
     "Content-Type": "application/json",
     "Access-Control-Allow-Origin": "*",
